@@ -6,6 +6,7 @@
 2. 🎉 Merged PR [#1](https://github.com//Brannstroom/Brannstroom/pull/1) in [Brannstroom/Brannstroom](https://github.com//Brannstroom/Brannstroom)
 <!--END_SECTION:activity-->
 
+<br>
+<br>
 
-
-![Brannstroom's github stats](https://github-readme-stats.vercel.app/api?username=Brannstroom&theme=darcula&show_icons=true)
+![Brannstroom's github stats](https://github-readme-stats.vercel.app/api?username=Brannstroom&theme=darcula&show_icons=true&count_private=true)
