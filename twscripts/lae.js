@@ -7,30 +7,30 @@ if(document.location.href.endsWith("am_farm")) {
         window.location.reload();
     }
     else {
-        var version = "LA Enhancer (1.0) - Modified by Brannstrom";
-var scriptName = "LA Enhancer (1.0) - Modified by Brannstrom";
-var scriptURL = "https://scripts.ibragonza.nl/enhancer/";
-var updateNotesURL = "https://forum.tribalwars.net/index.php?threads/ntoombs19s-fa-filter.266604/page-15#post-7053294";
-var working = true;
-var resourcesLoaded = false;
-var scriptLoaded = false;
-var pagesLoaded = false;
-var filtersApplied = false;
-var cansend = true;
-var keySetMode = false;
-var hideRow = false;
-var editingKey = false;
-var troubleshoot = false;
-var clearProfiles = false;
-var reason = [];
-var keyToEdit;
-var current_units;
-var currentGameTime = getCurrentGameTime();
-var sitter = "";
-if (window.top.game_data.player.sitter != "0") {
-    sitter = "t=" + window.top.game_data.player.id + "&";
-}
-var link = ["https://" + window.location.host + "/game.php?" + sitter + "village=", "&screen=am_farm"];
+        var version = "1.13.1 Fixed By Ibra";
+        var scriptName = "LA Enhancer (1.13.1) - Fixed by Ibra Gonza II";
+        var scriptURL = "https://scripts.ibragonza.nl/enhancer/";
+        var updateNotesURL = "https://forum.tribalwars.net/index.php?threads/ntoombs19s-fa-filter.266604/pae-15#post-7053294";
+        var working = true;
+        var resourcesLoaded = false;
+        var scriptLoaded = false;
+        var pagesLoaded = false;
+        var filtersApplied = false;
+        var cansend = true;
+        var keySetMode = false;
+        var hideRow = false;
+        var editingKey = false;
+        var troubleshoot = false;
+        var clearProfiles = false;
+        var reason = [];
+        var keyToEdit;
+        var current_units;
+        var currentGameTime = getCurrentGameTime();
+        var sitter = "";
+        if (window.top.game_data.player.sitter != "0") {
+            sitter = "t=" + window.top.game_data.player.id + "&";
+        }
+        var link = ["https://" + window.location.host + "/game.php?" + sitter + "village=", "&screen=am_farm"];
 
 
 var userset;
