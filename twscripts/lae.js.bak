@@ -1,3 +1,4 @@
+javascript:
 var classExists = document.getElementsByClassName(
     'settingsTable'
    ).length > 0;
